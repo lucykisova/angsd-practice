@@ -1,15 +1,18 @@
 ---
-title: "Assignment 2"
+title: "RMarkdown/Git Practice"
 author: "Lucy Kisova"
 date: "`r format(Sys.time(), '%d %B %Y')`"
-output: 
-  html_document: 
+output:
+  html_document:
     code_folding: show
     df_print: paged
     theme: cosmo
     toc: true
     toc_depth: 2
     toc_float: true
+  pdf_document:
+    toc: true
+    toc_depth: '2'
 ---
 
 # Purpose
